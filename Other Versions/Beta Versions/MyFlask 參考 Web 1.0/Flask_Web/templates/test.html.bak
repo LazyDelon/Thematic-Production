@@ -1,0 +1,30 @@
+ <div id="updatePanel1">
+	
+	<!-- 選單切換:start -->
+
+	<div class="stkmdtitle">
+
+		<h3><a href="sec_quote.aspx?code=2400T" title="集中市場半導體">集中市場半導體類股指數</a></h3>
+		<div class="subtns"><span class="sbtn1"><a href="sec_quote.aspx?code=2400T" title="即時報價">即時報價</a></span></div>
+	</div>
+	
+	<div class="mtbtns"><span class="btns3"><a href="/twstock/Index2Real_idx.htm" title="各類股指數">各類股指數</a></span><!--<span class="btns3"><a href="/twstock/stock_Item.asp" title="各類股走勢圖">各類股走勢圖</a></span>--></div>
+
+		<div class="stkmenucx">
+			<div class="menu2 tpbor">
+				<a href="sec_quote.aspx?code=2400T" title="即時報價">即時報價</a> 
+				<a href="sec_quotehtml5.aspx?code=2400T" title="Html5報價">Html5報價</a> 
+				  
+				<a href="sec_flashchart.aspx?code=2400T" title="flash線圖">flash線圖</a>   
+				<a href="sec_html5chart.aspx?code=2400T" title="HTML5線圖">HTML5線圖</a>   
+				<a href="sec_Javachart.aspx?code=2400T" title="Java線圖">Java線圖</a> 
+				<a href="sec_compare.aspx?code=2400T" title="個股比較">個股比較</a>   
+				<a href="sec_mgr.aspx?code=2400T" title="資券餘額">資券餘額</a>  
+				<a href="sec_big3.aspx?code=2400T" title="三大法人" class="current">三大法人</a>   
+				<a href="sec_bratio.aspx?code=2400T" title="營收損益">營收損益</a>   
+				<a href="sec_finratio.aspx?code=2400T" title="財務比率">財務比率</a>   
+				<a href="sec_news.aspx?code=2400T" title="相關新聞">相關新聞</a>   
+				<a href="//so.cnyes.com/Default.aspx?q=半導體&l=LB3&p=1&k=0" title="新聞search" target="_blank">新聞search</a>  
+				<a href="http://bar.cnyes.com/showcatalog-100101.aspx" title="股吧" target="_blank">股吧</a>
+			</div>
+</div>

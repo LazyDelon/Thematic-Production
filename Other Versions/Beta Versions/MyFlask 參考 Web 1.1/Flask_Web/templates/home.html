@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+      
+    <form method="POST" action="">
+
+        <nav class="d-flex justify-content-between">
+            
+                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#"> 財報排行 </a>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ url_for('stock') }}">stock</a></li>
+                    <li><a href="{{ url_for('stock') }}">stock</a></li>
+                    <li><a href="{{ url_for('stock') }}">stock</a></li>
+                    <li><a href="{{ url_for('stock') }}">stock </a></li>
+                    <li><a href="{{ url_for('stock') }}">stock</a></li>
+                    <li><a href="{{ url_for('stock') }}">stock</a></li>
+                </ul>
+
+                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#"> Not Yet </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">NotYet</a></li>
+                </ul>
+
+                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#"> NotYet </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">NotYet</a></li>
+                </ul>
+
+                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#"> NotYet </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">NotYet</a></li>
+                </ul>
+           
+        </nav> 
+        
+        <div class="input-group">
+
+            <input type="text" id="keyword" name="keyword" class="form-control" placeholder="Enter the stock code..." aria-label="Stock Code" style="width: 500px">
+            
+            <div class="input-group-append">
+                <button type="text" class="btn btn-outline-secondary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>  
+    </form>
+{% endblock content %}
